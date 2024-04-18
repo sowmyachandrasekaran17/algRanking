@@ -36,8 +36,7 @@ library(tidyr)
 library(tidyverse)
 delta_values <- c(50,100,250,500)
 sev_values <- c(0.5,0.65,0.8,0.95)
-# PBO results for 25 problems at desired target.
-data <- read.csv("PBO_Complete_Data.csv")
+data <- read.csv("Data.csv")
 
 for (j in 1:length(delta_values)){
   deltaPS=delta_values[j]
