@@ -1,0 +1,13 @@
+year <- sub("-.*", "", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+citHeader("To cite the algCompareR package, use:")
+
+bibentry(bibtype = "Manual",
+  title = "algCompareR",
+  author = personList(as.person("Sowmya Chandrasekaran"),as.person("Thomas Bartz-Beielstein")),
+  year = year,
+  note = vers,
+  organization = "Institute for Data Science, Engineering, and Analytics, Technische Hochschule Koeln",
+  address = "Steinmüllerallee 1, 51643 Gummersbach"
+  )
