@@ -86,7 +86,7 @@ Algorithm- The algorithm which is tested to be outperforming
 
 Score- Score obtained by each algorithm
 
-Goal_Differences -Goal_Difference- Goal_Difference obtained by each algorithm
+Goal_Differences - Goal_Difference obtained by each algorithm
 
 ## Examples
 ```R
